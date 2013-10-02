@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+  	<title>OneQuest</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="">
+  	<meta name="author" content="">
+	
+
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+   <!-- 
+	<script src="http://www.modernizr.com/downloads/modernizr-latest.js"></script>
+   -->
+
+
+	<title></title>
+</head>
+<body>
+
+
+
+
+<style>
+
+
+
+	
+#slick-login {
+    width: 400px;
+    height: auto;
+    position:absolute; 
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    -webkit-animation: login 1s ease-in-out;
+	-moz-animation: login 1s ease-in-out;
+	-ms-animation: login 1s ease-in-out;
+	-o-animation: login 1s ease-in-out;
+	animation: login 1s ease-in-out;
+}
+
+@keyframes "login" {
+ 0% {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    margin-top: -50px;
+ }
+ 100% {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    margin-top: -100px;
+ }
+}
+@-moz-keyframes login {
+ 0% {
+   filter: alpha(opacity=0);
+   opacity: 0;
+   margin-top: -50px;
+ }
+ 100% {
+   filter: alpha(opacity=100);
+   opacity: 1;
+   margin-top: -100px;
+ }
+}
+@-webkit-keyframes "login" {
+ 0% {
+   filter: alpha(opacity=0);
+   opacity: 0;
+   margin-top: -50px;
+ }
+ 100% {
+   filter: alpha(opacity=100);
+   opacity: 1;
+   margin-top: -100px;
+ }
+}
+@-ms-keyframes "login" {
+ 0% {
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   margin-top: -50px;
+ }
+ 100% {
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   margin-top: -100px;
+ }
+}
+@-o-keyframes "login" {
+ 0% {
+   filter: alpha(opacity=0);
+   opacity: 0;
+   margin-top: -50px;
+ }
+ 100% {
+   filter: alpha(opacity=100);
+   opacity: 1;
+   margin-top: -100px;
+ }
+}
+
+</style>
+
+<div id="slick-login">
+	
+
+      <div class="well">
+        <legend>Login</legend>
+        <form method="POST" action="" accept-charset="UTF-8">
+            <div class="alert alert-error">
+                <a class="close" data-dismiss="alert" href="#">x</a>Usuário ou Senha incorreta!
+            </div>      
+            
+				<div class="control-group">
+					<div class="input-prepend">
+					    <div class="controls">
+					    <span class="add-on"><i class="icon-user"></i></span>
+					      <input type="text" id="inputEmail" placeholder="Email ou Usuário">
+					    </div>
+					</div>
+				</div>
+
+				<div class="control-group">
+					<div class="input-prepend">
+					    <div class="controls">
+					    <span class="add-on"><i class="icon-lock"></i></span>
+					      <input type="password" id="inputPassword" placeholder="Senha">
+					    </div>
+					</div>
+				</div>
+				
+					<!-- Button -->
+				<div class="control-group">
+					<div class="controls">
+					  	<label class="checkbox">
+				        	<input type="checkbox"> Lembrar senha
+				      	</label>
+					    <button type="submit" id="singlebutton" name="singlebutton" class="btn btn-primary">Entrar</button>
+					</div>
+				</div>	
+
+        </form>    
+      </div>
+    </div>
+
+
+</body>
+</html>
