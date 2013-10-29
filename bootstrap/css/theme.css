@@ -347,14 +347,16 @@ textarea.autosize-animated {
   margin: 0 !important;
 }
 
-/*= NAVBAR*/
+
+/*= NAVBAR 
 ---------------------------------------------------------------------------------------------- 
 .brand {
   font-family: 'Leckerli One', cursive;
   font-weight: 500;
 }
+
 .navbar {
-  background: #00aa87; /*7d56a0*/
+  background: #7d56a0; 00aa87
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 0 1px rgba(255, 255, 255, 0.5) inset;
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 0 1px rgba(255, 255, 255, 0.5) inset;
@@ -405,9 +407,9 @@ textarea.autosize-animated {
   color: #fff;
   font-size: 21px;
   width: 22px;
-  line-height: 20px;
+  line-height: 20px; 
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
-} */
+}  
 /*= FRAME
 ---------------------------------------------------------------------------------------------- */
 .frame {
@@ -434,8 +436,9 @@ textarea.autosize-animated {
 .sidebar .wrapper {
   padding: 0 20px;
 }
+
 .sidebar .profile {
-  background: #018066; /*7d56a0*/
+ /* background: #018066; 7d56a0 */
   border-bottom: 1px solid #000;
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(255, 255, 255, 0.05) inset;
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3), 0 -1px 1px rgba(255, 255, 255, 0.05) inset;
@@ -443,7 +446,7 @@ textarea.autosize-animated {
   display: block;
   margin: 0 -20px 25px;
   padding: 15px 20px;
-  height: 30px;
+  height: 11px;
   line-height: 30px;
 }
 .sidebar .nav {
